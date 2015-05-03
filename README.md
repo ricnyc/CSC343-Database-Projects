@@ -8,8 +8,7 @@
 <ul>
 <li>Relational algebra</li>
 <li>SQL-(postgresql)</li>
-<li>JDBC</li>
-<p>Using Parameters for Protection</p>
+<li>JDBC - (Using Parameters for Protection)</li>
 <li>Xquery</li>
 </ul>
 </body>
