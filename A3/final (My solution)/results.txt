@@ -1,0 +1,151 @@
+Checking Assignment 3 (Part 1) Solutions
+
+============================== Query q1  ==============================
+
+------ raw output ------
+
+<noplaylist><song sid="s4"/></noplaylist>
+
+------ formatted output (therefore well-formed) ------
+
+<?xml version="1.0" standalone="no"?>
+<noplaylist>
+  <song sid="s4"/>
+</noplaylist>
+
+------ checking validity of output ------
+
+Results valid? (no news is good news)
+
+============================== Query q2  ==============================
+
+------ raw output ------
+
+<fewfollowers><who uid="u2"><follower uid="u1"/></who><who uid="u3"><follower uid="u2"/></who><who uid="u4"><follower uid="u2"/></who><who uid="u5"/></fewfollowers>
+
+------ formatted output (therefore well-formed) ------
+
+<?xml version="1.0" standalone="no"?>
+<fewfollowers>
+  <who uid="u2">
+    <follower uid="u1"/>
+  </who>
+  <who uid="u3">
+    <follower uid="u2"/>
+  </who>
+  <who uid="u4">
+    <follower uid="u2"/>
+  </who>
+  <who uid="u5"/>
+</fewfollowers>
+
+------ checking validity of output ------
+
+Results valid? (no news is good news)
+
+============================== Query q3  ==============================
+
+------ raw output ------
+
+<favourites><user uid="u1" pid="p1" playcount="10"/><user uid="u1" pid="p3" playcount="10"/><user uid="u1" pid="p5" playcount="10"/><user uid="u2" pid="p5" playcount="6"/><user uid="u3" pid="p2" playcount="1"/><user uid="u4" pid="p2" playcount="5"/><user uid="u5"/></favourites>
+
+------ formatted output (therefore well-formed) ------
+
+<?xml version="1.0" standalone="no"?>
+<favourites>
+  <user uid="u1" pid="p1" playcount="10"/>
+  <user uid="u1" pid="p3" playcount="10"/>
+  <user uid="u1" pid="p5" playcount="10"/>
+  <user uid="u2" pid="p5" playcount="6"/>
+  <user uid="u3" pid="p2" playcount="1"/>
+  <user uid="u4" pid="p2" playcount="5"/>
+  <user uid="u5"/>
+</favourites>
+
+------ checking validity of output ------
+
+Results valid? (no news is good news)
+
+============================== Query q4  ==============================
+
+------ raw output ------
+
+<pairs><pair uid1="u1" uid2="u2"/></pairs>
+
+------ formatted output (therefore well-formed) ------
+
+<?xml version="1.0" standalone="no"?>
+<pairs>
+  <pair uid1="u1" uid2="u2"/>
+</pairs>
+
+------ checking validity of output ------
+
+Results valid? (no news is good news)
+
+============================== Query q5  ==============================
+
+------ raw output ------
+
+<popularity><histogram pid="p1"><low count="2"/><medium count="1"/><high count="0"/></histogram><histogram pid="p2"><low count="3"/><medium count="1"/><high count="0"/></histogram><histogram pid="p3"><low count="1"/><medium count="1"/><high count="0"/></histogram><histogram pid="p4"><low count="1"/><medium count="1"/><high count="0"/></histogram><histogram pid="p5"><low count="0"/><medium count="2"/><high count="0"/></histogram><histogram pid="p6"><low count="0"/><medium count="0"/><high count="0"/></histogram></popularity>
+
+------ formatted output (therefore well-formed) ------
+
+<?xml version="1.0" standalone="no"?>
+<popularity>
+  <histogram pid="p1">
+    <low count="2"/>
+    <medium count="1"/>
+    <high count="0"/>
+  </histogram>
+  <histogram pid="p2">
+    <low count="3"/>
+    <medium count="1"/>
+    <high count="0"/>
+  </histogram>
+  <histogram pid="p3">
+    <low count="1"/>
+    <medium count="1"/>
+    <high count="0"/>
+  </histogram>
+  <histogram pid="p4">
+    <low count="1"/>
+    <medium count="1"/>
+    <high count="0"/>
+  </histogram>
+  <histogram pid="p5">
+    <low count="0"/>
+    <medium count="2"/>
+    <high count="0"/>
+  </histogram>
+  <histogram pid="p6">
+    <low count="0"/>
+    <medium count="0"/>
+    <high count="0"/>
+  </histogram>
+</popularity>
+
+------ checking validity of output ------
+
+Results valid? (no news is good news)
+
+============================== Query q6  ==============================
+
+------ raw output ------
+
+<songcounts><song sid="s1" title="song1" playcount="24"/><song sid="s2" title="song2" playcount="49"/><song sid="s3" title="song3" playcount="11"/><song sid="s4" title="song4" playcount="0"/></songcounts>
+
+------ formatted output (therefore well-formed) ------
+
+<?xml version="1.0" standalone="no"?>
+<songcounts>
+  <song sid="s1" title="song1" playcount="24"/>
+  <song sid="s2" title="song2" playcount="49"/>
+  <song sid="s3" title="song3" playcount="11"/>
+  <song sid="s4" title="song4" playcount="0"/>
+</songcounts>
+
+------ checking validity of output ------
+
+Results valid? (no news is good news)
+

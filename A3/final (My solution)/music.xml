@@ -1,0 +1,71 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE music SYSTEM "music.dtd" >
+<music>
+	<songs>
+		<song sid="s1" time="Mar" year="2000">
+			<title>song1</title>
+			<artist>artist1</artist>
+			<composers>
+				<composer>composer1</composer>
+				<composer>composer2</composer>
+			</composers>
+			<album>album1</album>
+		</song> 
+
+		<song sid="s2" time="Jan" year="1998">
+			<title>song2</title>
+			<artist>artist2</artist>
+			<composers>
+				<composer>composer1</composer>
+			</composers>
+		</song> 
+
+		<song sid="s3" time="Oct" year="2013">
+			<title>song3</title>
+			<artist>artist2</artist>
+			<composers>
+				<composer>composer2</composer>
+			</composers>
+		</song> 
+
+		<song sid="s4" time="Dec" year="2008">
+			<title>song4</title>
+			<artist>artist3</artist>
+			<composers>
+				<composer>composer2</composer>
+				<composer>composer3</composer>
+			</composers>
+		</song> 
+
+
+	</songs>
+	<playlists>
+		<playlist pid="p1" creator="u1">
+			<track sid="s1"/>
+		</playlist>
+
+		<playlist pid="p2" creator="u1">
+			<track sid="s1"/>
+			<track sid="s2"/>
+		</playlist>
+
+		<playlist pid="p3" >
+			<track sid="s3"/>
+			<track sid="s2"/>
+		</playlist>
+
+		<playlist pid="p4" >
+			<track sid="s2"/>
+		</playlist>
+
+		<playlist pid="p5" >
+			<track sid="s2"/>
+		</playlist>
+
+		<playlist pid="p6" >
+			<track sid="s1"/>
+			<track sid="s2"/>
+			<track sid="s3"/>
+		</playlist>
+	</playlists>
+</music>

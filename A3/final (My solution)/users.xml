@@ -1,0 +1,58 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE users SYSTEM "users.dtd">
+<users>
+	
+	<user uid="u1" dob="27/Mar" email="u1@u1.com">
+		<surname>sur1</surname>
+		<givennames>given1</givennames>
+		<follows who="u2"/>
+		<playlists>
+			<playlist pid="p1" created="1" playcount="10"/>
+			<playlist pid="p2" created="1" playcount="3"/>
+			<playlist pid="p3" created="1" playcount="10"/>
+			<playlist pid="p4" created="1" playcount="8"/>
+			<playlist pid="p5" created="1" playcount="10"/>
+		</playlists>
+	</user>
+
+	<user uid="u2" dob="1/Mar" email="u2@u2.com">
+		<surname>sur2</surname>
+		<givennames>given2</givennames>
+		<follows who="u1 u3 u4"/>
+		<playlists>
+			<playlist pid="p2" created="1" playcount="1"/>
+			<playlist pid="p1" created="1" playcount="1"/>
+			<playlist pid="p3" created="1" playcount="1"/>
+			<playlist pid="p4" created="1" playcount="4"/>
+			<playlist pid="p5" created="1" playcount="6"/>
+		</playlists>
+	</user>
+
+
+	<user uid="u3" dob="1/Jan" email="u3@u3.com">
+		<surname>sur3</surname>
+		<givennames>given3</givennames>
+		<follows who="u1"/>
+		<playlists>
+			<playlist pid="p2" created="1" playcount="1"/>
+		</playlists>
+	</user>
+
+
+	<user uid="u4" dob="14/Apr" email="u4@u4.com">
+		<surname>sur4</surname>
+		<givennames>given4</givennames>
+		<follows who="u1"/>
+		<playlists>
+			<playlist pid="p1" created="1" playcount="3"/>
+			<playlist pid="p2" created="1" playcount="5"/>
+		</playlists>
+	</user>
+
+
+	<user uid="u5" dob="22/Sep" email="u5@u5.com">
+		<surname>sur5</surname>
+		<givennames>given5</givennames>
+		<follows who="u1"/>
+	</user>
+</users>
