@@ -9,6 +9,7 @@
 <li>Relational algebra</li>
 <li>SQL-(postgresql)</li>
 <li>JDBC</li>
+<p>Using Parameters for Protection</p>
 <li>Xquery</li>
 </ul>
 </body>
