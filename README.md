@@ -1,6 +1,6 @@
 # Database-Projects
 ###Including Relational algebra, SQL and Xquery
-# ECE244-Projects
+# CSC343-Projects
 <body>
 <h4>The code in this repository are my solutions for CSC343 labs at the University of Toronto. Please do not use it for your own course work, thank you.</h4> 
 <h4>Feel Free to email me for any mistakes in the repo or if you have any questions about SQL programming.
